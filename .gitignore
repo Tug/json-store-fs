@@ -1,0 +1,9 @@
+.env
+.DS_Store
+.idea
+*.iml
+*.iws
+tags
+temp
+node_modules
+/npm-debug.log*

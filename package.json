@@ -1,0 +1,27 @@
+{
+  "name": "json-store-fs",
+  "version": "0.1.0",
+  "description": "A datastore of JSON objects persisted on the File System",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tug/json-store.git"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "glob": "5.0.14",
+    "mkdirp": "0.5.1"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "2.2.5",
+    "rimraf": "^2.4.3",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0"
+  }
+}
