@@ -39,6 +39,30 @@ myStore.remove( storeKey, function( err ) {} );
 myStore.keys( callback, function( storeKeys ) {} );
 ```
 
+
+A synchronous version of each operation is available as well:
+
+- Store.sync.set
+```
+myStore.sync.set( storeKey, storeData ); // throws error
+```
+
+- Store.sync.get
+```
+var storeData =  myStore.sync.get( storeKey ); // throws error
+```
+
+- Store.sync.remove
+```
+myStore.sync.remove( storeKey ); // throws error
+```
+
+- Store.sync.keys
+```
+var keys = myStore.sync.keys(); // throws error
+```
+
+
 ## Run tests
 ```
 mocha test
