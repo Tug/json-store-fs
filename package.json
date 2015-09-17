@@ -1,6 +1,6 @@
 {
   "name": "json-store-fs",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "A datastore of JSON objects persisted on the File System",
   "repository": {
     "type": "git",
